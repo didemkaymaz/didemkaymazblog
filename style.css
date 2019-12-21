@@ -1,0 +1,465 @@
+body{
+ font-family: Poppins;
+ margin: 24px;
+ background: #0f0f0f;
+ color: #505050;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body h1{
+    color: #fff;
+    text-align:  center;
+    margin : 60px auto;
+    font-size: 40px;
+    font-weight: 400;
+}
+ p{
+     text-align: center;
+     color: grey;
+     font-weight: 300;
+     margin-top: 10px;
+ }
+
+ .wall-item{
+     display: block;
+     margin: 0 0 24px 0;
+     padding: 12px;
+     background: #1e1e1e;
+     transition: all 200ms;
+     margin-left: 10px;
+     border-radius: 20px;
+ }
+
+ .wall-item:hover {
+     transform: translateY(-6px);
+     transition: all 200ms;
+ }
+
+ .wall-item > img {
+     display:  block;
+     width: 100%;
+     margin: 0 0 30px 0;
+ }
+ 
+.wall-item h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+   text-shadow: 2px 2px 5px green, 0 0 10px red;
+}
+
+.wall-column {
+    display: block;
+    position: relative;
+    width: 33.3333%;
+    float: left;
+color:darkorchid    
+padding: 0 12px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+    .wall-column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wall-column {
+        width:40px;
+        float: none;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border:0;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap');
+
+
+
+ul.menu {
+    background-color: rgb(255, 255, 255); 
+    height: 80px;
+    border-radius: 20px;
+    fix
+}
+
+ul.menu2 {
+    float: left ;
+}
+
+ul.menu > li {
+    float: left;
+  position: relative;
+  margin-top: 16px;
+  
+}
+
+ul.menu >li >a {
+    display: block;
+    font-size: 14px;
+    color: rgb(14, 9, 9);
+    padding: 0 15px;
+    line-height: 50px;
+    font-weight:bold;
+    font-size: 14pt;
+}
+
+ul.menu ul {
+    background: rgba(255, 251, 255, 0.76);
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left:0;
+    opacity: 0;
+    transition: 250ms all;
+    visibility: hidden;
+    z-index: 10000;
+    border-radius: 16px;
+    margin-top: 13px;
+}
+
+ul.menu ul li a {
+    display: block;
+    padding: 7px 12px;
+    color: rgb(22, 17, 17);
+    font-size: 12pt;
+    transition:color .5s ease-in;
+    z-index: 10000;
+    font-weight: bold;
+    
+}
+
+ul.menu >li:hover ul {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+
+ul.menu li a:hover {
+    background-color: rebeccapurple ;
+    width: 85%;
+    border-radius: 10px;
+}
+
+ul.menu ul li a:hover{
+    background-color: rebeccapurple ;
+    width: 88%;
+  
+}
+
+ul.menu li.social a:hover{
+    background-color: white;
+    width: 0%;
+}
+
+.logo{
+    position:0 0 0 ;
+    width:160px;
+    height:78px ;
+    margin-left: 10px;
+}
+
+
+
+footer {
+    display: block;
+  }
+  @media (min-width: 56.25em);
+  
+  .design-credit{
+      left: 4%;
+      width: 100%;
+      clear: both;
+      background: repeating-linear-gradient(45deg, black, transparent 100px);
+      color: #7C7D7F;
+      text-align: center;
+      letter-spacing: 0.08em;
+      padding: 0.75em;
+      margin-top: 3em;
+      position: relative;
+      margin-left:-67px;
+  }
+
+.iframehakkimda {
+    width:1500px;
+    height: 1000px;
+   
+}
+
+.form p input{
+    padding: 10px;
+    margin-left: -281px;
+    width: 200px;
+    box-shadow: 5px 5px 10px #d48ad6;
+    padding: 20px;
+
+}
+
+.form p textarea{
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #d48ad6
+
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    color: #050305;
+    box-shadow:  rgb(150, 40, 150);
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.iletisimbaslik h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d48ad6;
+}
+
+input :hover, textarea :hover,
+input :focus,  textarea :focus {
+border-color: 1px solid rgb(245, 131, 226);
+border-radius: 20px;
+}
+
+.haber p {
+    text-align: left;
+    color: whitesmoke;
+   
+}
+.haber img {
+    width: 29px;
+}
+
+.top-sidebar {
+    width: 21%;
+    height: 47%;
+    float: right;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 1%  2% 3%;
+    padding: 2% 3%;
+}
+.top-sidebar2 {
+    width: 50%;
+    height: 10%;
+    float:center ;
+    background-color: rgba(172, 111, 180, 0.356);
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 105px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+    margin-left: 335px;
+}
+.top-sidebar-video{
+    width: 34%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1% 0 0 2%;
+    padding: 2% 1%;
+    margin-top: 29px;
+}
+.top-sidebar1 {
+    width: 21%;
+    height: 47%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 1%  2% 3%;
+    padding: 2% 3%;
+}
+
+.top-sidebar p {
+    float: left;
+}
+.top-sidebar1 p {
+    float: left;
+}
+
+.top-sidebar-yerler {
+    width: 29%;
+    height: 47%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 1%  2% 3%;
+    padding: 2% 3%;
+}
+
+.top-sidebar-orta {
+    width: 29%;
+    height: 47%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 1%  2% 3%;
+    padding: 2% 3%;
+}
+
+.cekimler img{
+width: 730px;
+height: 400px;
+}
+
+div.myslider img {
+    width:70%;width: 800px;border-radius: 20px;
+}
+
+div.myslider {
+    max-width:1000px;margin-left: 333px; 
+}
+
+ 
+/* Büyüme efekti kaynak kod  http://www.adobewordpress.com/css-ile-uzerine-gelince-buyuyen-resimler */
+
+.grow {  
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+
+.grow:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.top-sidebar1 h2{
+    text-shadow: 1px 2px purple;
+}
+.top-sidebar h2{ 
+    text-shadow: 1px 2px purple;
+}
+
+.top-sidebar-hobi {
+    width: 53%;
+    height: 47%;
+    float: left;
+    background-color: rgba(249, 249, 253, 0.863);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 1%  2% 3%;
+    padding: 2% 3%;
+    margin-left: 300px;
+}
+
+.top-sidebar-hobi p {
+    color: black;
+    font-weight: bolder;
+}
+
+.top-sidebar-hobi img:hover{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.top-sidebar-hobi div {
+    float: left;
+}
+
+div.polaroid {
+    width:60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+ #yazi-y  {
+    border: 5px solid;
+    padding: 15px;
+    border-image: linear-gradient(#ad16a6, #0f0c0f) 30;
+    margin-left: 429px;
+    margin-top: 0px; 
+    font-weight: lighter ;
+    font-family: 'Courier New', Courier, monospace;
+    height: 202px;
+    font-size: 14pt;
+  }
+
+  #yazi-f  {
+    border: 5px solid;
+    padding: 15px;
+    border-image: linear-gradient(#f82ba3, #0f0c0f) 30;
+    margin-left: 429px;
+    margin-top: -17px; 
+    font-weight: lighter ;
+    font-family: 'Courier New', Courier, monospace;
+    height: 269px;
+    font-size: 14pt;
+  }
+
+  #yazi-d {
+ border: 5px solid;
+    padding: 15px;
+    border-image: linear-gradient(#47311c, #0f0c0f) 30;
+    margin-left: 429px;
+    margin-top: -18px; 
+    font-weight: lighter ;
+    font-family: 'Courier New', Courier, monospace;
+    height: 223px;
+    font-size: 14pt;
+  }
+
+  #yazi-dy {
+    border: 5px solid;
+    padding: 15px;
+    border-image: linear-gradient(#0ac533, #0f0c0f) 30;
+    margin-left: 429px;
+    margin-top: -18px; 
+    font-weight: lighter ;
+    font-family: 'Courier New', Courier, monospace;
+    height: 218px;
+    font-size: 12pt;
+  }
+
+  .news{
+    width: 900px;
+    margin:auto;
+    }
+    .haber{
+    float:left;
+    padding:0 10px 10px 0;
+    width: 560px;
+    height: 340px;
+    border-radius: 200px;	
+    }

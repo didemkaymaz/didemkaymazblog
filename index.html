@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewsport" content="width-device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Anasayfa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon"  href="favicon.ico"/>
+  
+  <style>
+      .mySlides {display:none;}
+      </style>
+</head>
+
+<body> 
+  <header>
+      <ul class="menu2">
+          <li>
+              <img src="logo1.png" alt="logo" class="logo">
+          </li>
+        </ul>
+  </header>
+
+    
+  <ul class="menu" >
+      <li>
+          <a href="index.html"><img src="anasayfa.png" style="width: 30px; margin-top: 5px;"/>Anasayfa</a>
+        </li>
+      <li>
+          <a href="#"><img src="fotograflar.png" style="width: 30px; margin-top: 5px;"/>Fotoğraflar</a>
+          <ul>
+            <li>
+              <a href="gezdigimyerler.html"><img src="gezdigim.png" style="width: 30px; margin-top: 5px;"/>Gezdiğim Yerler</a>
+            </li>
+            <li>
+                <a href="cekimlerim.html"><img src="cekimlerim.png" style="width: 30px; margin-top: 5px;"/>Çekimlerim</a>
+              </li>
+            <li>
+                <a href="duvarkagitlari.html"><img src="wallpaper.png" style="width: 30px; margin-top: 5px;"/>Duvar Kağıtları</a>
+              </li>
+             
+          </ul>  
+         
+          <li>
+              <a href="hobilerim.html"><img src="hobi.png" style="width: 30px; margin-top: 5px;"/>Hobilerim</a>
+            </li>
+            <li>
+              <a href="teknoloji.html"><img src="teknoloji.png" style="width: 30px; margin-top: 5px;"/>Teknoloji</a>
+            </li>
+        </li>
+      <li>
+          <a target="_blank" href="hakkımda.html"><img src="hakkımda.png" style="width: 30px; margin-top: 5px;"/>Hakkımda</a>
+        </li>
+        <li>
+            <a href="iletisim.html"><img src="iletisim.png" style="width: 30px; margin-top: 5px;"/>İletişim</a>
+          </li>
+          <li class="social">
+              <a href="https://twitter.com/didemkymzz" ><img style="width: 50px; margin-left: 168px;" src="twitter.png" /></a>
+            </li>
+          <li  class="social">
+              <a href="https://www.facebook.com/didem.kaymaz.3" ><img style="width: 50px;" src="facebook.png" /></a>
+            </li>
+            <li  class="social">
+                <a href="https://www.instagram.com/didemkymzz/" ><img style="width: 50px;" src="instagramm.png" /></a>
+              </li>
+  </ul>
+<br>
+</head>
+<body>
+<!-- SLIDER KAYNAK KOD https://www.w3schools.com/w3css/w3css_slideshow.asp -->
+
+    <div class="myslider" style="max-width:100%;margin-left: 333px; ">
+        <img class="mySlides" src="s1.jpg">
+        <img class="mySlides" src="s2.jpg" >
+        <img class="mySlides" src="s3.jpg" >
+        <img class="mySlides" src="s4.jpg">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000);
+      }
+      </script>
+
+  </div>
+  <aside class="top-sidebar1">
+      <article>
+          <h2> <img src="duyurular.png"/>  Duyurular</h2>
+          <p><b style="color: rgb(121, 24, 88);">11.05.2020 =></b> NEVŞEHİR-Kapadokya gezisine katılacağım.</p>
+          <p><b  style="color: rgb(121, 24, 88);">05.01.2020 => </b>BURSA-Uludağ gezisine katılacağım.</p>
+          <p><b  style="color: rgb(121, 24, 88);">01.05.2020 =></b> KARADENİZ turuna katılacağım.</p>
+          <p><b  style="color: rgb(121, 24, 88);">13.04.2020 =></b> BOLU-Yedigöller Milli Parkı gezisine katılacağım.</p>
+      </article>
+  </aside>
+  <aside class="top-sidebar-video">
+      <article><h3 style="text-align: center;"><div style="width: 495px; height: 20px; border:solid;border-radius: 5px; background: rgba(153, 110, 182, 0.705)"><a href="videom.mp4" download style="color: rgb(7, 3, 3);">Videoyu indirmek için tıklayınız</a></div></h3>
+          <video width="500px" height="300px" controls >
+              <source src="videom.mp4" type="video/mp4" download>
+            </video>
+      </article>
+  </aside>
+  <aside class="top-sidebar">
+      <article>
+          <h2 style="margin-top:-14px"><img src="haberler.png" style="width:50px; height: 40px" />Haberler</h2>
+          <marquee><p style="color: blueviolet; font-weight: bolder;">=>'Yılın Çevre Fotoğrafçıları' açıklandı.</p></marquee>
+          <p>CIWEM'in 'Yılın Çevre Fotoğrafçıları' yarışmasının sonuçları açıklandı. 89 ülkeden fotoğrafçının katıldığı yarışmadaki büyüleyici ve düşündürücü fotoğraflar, gezegenimizin 2018'de nasıl olduğuna dair fikir de veriyor. Yarışmanın bu seneki kazananı Saeed Mohammadzadeh olurken listede bir de Türk yer alıyor.</p>
+ <img src="haber.jfif" width="320px" height="120px;" style="border-radius: 20px;"/>
+        </article>
+  </aside>
+  <br><br><br><br>
+
+ <!-- YUKARI ÇIK KODU KAYNAK http://www.teknobeyin.com/tum-tarayicilar-ile-uyumlu-yukari-cik-butonu-yapimi.html -->
+  <style>
+      #onlyJSyc{
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      border: none;
+      outline: none;
+      background-image: url("yukaricikkk.png");
+      background-repeat: no-repeat;
+      cursor: pointer;
+      padding: 0px;
+      width: 30px;
+      height: 30px;
+      }
+      </style>
+      <button onclick="topFunction()" id="onlyJSyc"></button>
+      <script>
+      window.onscroll = function() {
+      scrollFunction()
+      };
+      function scrollFunction() {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
+      document.getElementById("onlyJSyc").style.display = "block"
+      else
+      document.getElementById("onlyJSyc").style.display = "none"
+      }
+      function topFunction() {
+      if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+      document.body.scrollTop -= 40
+      document.documentElement.scrollTop -= 40
+      setTimeout(function() {
+      topFunction()
+      }, 0)
+      } else {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+      }
+      }
+      </script> 
+      <footer class="site-footer" role="contentinfo">
+          <div class="design-credit" style="top:15px">  <p>&#169; Tüm hakları saklıdır.</p>
+          <p>Posted by: Didem Kaymaz</p>
+          <p>İletişim Bilgileri: <a href="mailto:didemkaymaz99@gmail.com">
+          didemkaymaz99@gmail.com</a></p>
+          <p>Tel: +90 5546552416</p></div>
+        </footer>
+</body>
+</html>
